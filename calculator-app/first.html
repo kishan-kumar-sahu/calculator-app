@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="script.css">
+
+</head>
+<body>
+  <h1 id="heading"> calculator</h1>
+  <div class="counter">
+ <input  id="displalid"  type="text" readonly>
+
+       <div class="btn">
+       
+              <button
+              
+              onclick=" 
+              currentvalue= '';
+              document.querySelector('#displalid').value=currentvalue "  
+              
+              
+              
+              >Ac</button>
+            
+           <button 
+           
+               onclick=" 
+           currentvalue= currentvalue+'1';
+      
+           document.querySelector('#displalid').value=currentvalue "  
+               console.log(currentvalue);
+           >1</button>
+           
+           <button
+          onclick=" 
+           currentvalue= currentvalue+'2';
+           console.log(currentvalue);
+           document.querySelector('#displalid').value= currentvalue";
+           >2</button>
+
+           <button
+           onclick=" 
+           currentvalue= currentvalue+'3';
+           document.querySelector('#displalid').value=currentvalue "  
+           >3</button>
+           <button
+           
+           onclick=" 
+           currentvalue= currentvalue+'4';
+           document.querySelector('#displalid').value=currentvalue "  
+           >4</button>
+
+
+           <button
+           
+           onclick=" 
+           currentvalue= currentvalue+'5';
+           document.querySelector('#displalid').value=currentvalue "  
+           
+           >5</button>
+
+
+
+           <button
+           onclick=" 
+           currentvalue= currentvalue+'6';
+           document.querySelector('#displalid').value=currentvalue "  
+           
+     
+           
+           >6</button>
+           <button
+           
+           onclick=" 
+           currentvalue= currentvalue+'7';
+           document.querySelector('#displalid').value=currentvalue "  
+           
+      
+           
+           >7</button>
+           <button
+           
+
+           onclick=" 
+           currentvalue= currentvalue+'8';
+           document.querySelector('#displalid').value=currentvalue "  
+           
+           >8</button>
+           <button
+           
+           onclick=" 
+           currentvalue= currentvalue+'9';
+           document.querySelector('#displalid').value=currentvalue "  
+           
+           
+           
+           >9</button>
+           <button
+           
+           
+           onclick=" 
+           currentvalue= currentvalue+'0';
+           document.querySelector('#displalid').value=currentvalue "  
+           
+           
+           >0</button>
+           <button
+           
+           onclick=" 
+           currentvalue= currentvalue+'+';
+           document.querySelector('#displalid').value=currentvalue "  
+           
+           
+           
+           >+</button>
+           <button
+           
+           onclick=" 
+           currentvalue= currentvalue+'.';
+           document.querySelector('#displalid').value=currentvalue "  
+           
+           
+           >.</button>
+           <button
+           
+           onclick=" 
+           currentvalue= currentvalue+'*';
+           document.querySelector('#displalid').value=currentvalue "  
+           
+           
+           >*</button>
+          
+           <button   
+           onclick=" 
+           currentvalue= eval(currentvalue)
+           document.querySelector('#displalid').value=currentvalue "  
+           
+           
+           >=</button>
+          </div>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>

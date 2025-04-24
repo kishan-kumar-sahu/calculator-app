@@ -1,0 +1,33 @@
+.counter{
+  display: flex; 
+   flex-wrap: wrap;
+
+   width: 300px;
+   height:  480px;
+    border:  2px solid black;
+    margin-left: 130px; 
+   
+}
+
+#heading{
+   padding-left: 240px;
+}
+
+#displalid{
+
+  margin-top: 20px;
+    margin-left: 12px;
+    height: 30px;
+    width: 270px;
+     padding: 2px;
+
+}
+
+.counter button{
+
+
+ height: 20px;
+ width: 30px;
+ margin: 24px;
+   
+}
